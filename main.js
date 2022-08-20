@@ -55,7 +55,7 @@ function gotResults(error, results) {
     }else if(prediction_1 == "Sad") {
         document.getElementById("update_emoji").innerHTML = "&#128532;";
     }else if(prediction_1 == "Angry") {
-        document.getElementById("update_emoji").innerHTML = "&#128545;";
+        document.getElementById("update_emoji").innerHTML = "&#128548;";
     }else if(prediction_1 == "Smile") {
         document.getElementById("update_emoji").innerHTML = "&#128522;";
 
@@ -68,7 +68,7 @@ function gotResults(error, results) {
     }else if(prediction_2 == "Sad") {
         document.getElementById("update_emoji2").innerHTML = "&#128532;";
     }else if(prediction_2 == "Angry") {
-        document.getElementById("update_emoji2").innerHTML = "&#128545;";
+        document.getElementById("update_emoji2").innerHTML = "&#128548;";
     }else if(prediction_2 == "Smile") {
         document.getElementById("update_emoji2").innerHTML = "&#128522;";
 
